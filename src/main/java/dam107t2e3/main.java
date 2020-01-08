@@ -1,16 +1,14 @@
 /*
-Copia las clases anteriores como una nueva versión de las mismas (añade sufijo _v2) y realiza los
+Copia las clases anteriores como una nueva versión de las mismas (añade sufijo _v3) y realiza los
 siguientes cambios:
-• Ahora los atributos ancho y alto serán privados.
-• Añade los métodos getter y setter para ambos atributos.
-• Modifica la clase Triangulo obligados por los cambios en su clase padre.
-• Haz una copia del programa anterior, sobre las nuevas clases creadas, y comprueba que el
-programa creado en el ejercicio anterior sigue funcionando.
+• Añade un constructor a la clase Triangulo al que se le pasan tres parámetros: estilo, alto y ancho.
+• Se invocará al constructor por defecto de la clase base.
+• Modificar el programa de los ejercicios anteriores para que los triángulos sean creados mediante
+este nuevo constructor
 
 */
-package dam107t2e2;
+package dam107t2e3;
 
-import dam107t2e1.*;
 import java.util.Scanner;
 
 public class main {
