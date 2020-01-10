@@ -14,9 +14,8 @@ incorporadas en este ejercicio.
 
 
 */
-package dam107t2e5;
+package dam107t2e6;
 
-import dam107t2e4.*;
 import java.util.Scanner;
 
 public class main {
@@ -50,5 +49,12 @@ public class main {
         t3.verDim();
         System.out.println("Area: " + t3.area());
         System.out.println("El estilo es " + t3.getEstilo());
+        
+        System.out.println("--------------------------------");
+        TrianColor t4 = new TrianColor(2,3, "Triangulo Color", "Rojo");
+        t4.verDim();
+        System.out.println("Area: " + t4.area());
+        System.out.println("El estilo es " + t4.getEstilo());
+        System.out.println("Color: " + t4.getColor());
     }
 }
